@@ -2800,3 +2800,57 @@ Started POST "/coord" for 127.0.0.1 at 2015-11-09 20:34:37 +1100
 Processing by HomeController#coord as */*
   Parameters: {"userLong"=>"151.2725999", "userLat"=>"-33.869781599999996"}
 Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-10 12:13:27 +1100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.slim within layouts/application (32.7ms)
+Completed 200 OK in 136ms (Views: 135.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-11-10 12:13:28 +1100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-10 12:13:28 +1100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-10 12:13:28 +1100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-10 12:13:28 +1100
+
+
+Started GET "/assets/geolocation.js?body=1" for 127.0.0.1 at 2015-11-10 12:13:28 +1100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-10 12:13:28 +1100
+
+
+Started GET "/assets/burst_tiny.png" for 127.0.0.1 at 2015-11-10 12:13:28 +1100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-10 12:13:28 +1100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-10 12:13:29 +1100
+
+
+Started GET "/assets/geolocation.js?body=1" for 127.0.0.1 at 2015-11-10 12:13:29 +1100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-10 12:13:29 +1100
+
+
+Started GET "/assets/burst_tiny.png" for 127.0.0.1 at 2015-11-10 12:13:29 +1100
+
+
+Started POST "/coord" for 127.0.0.1 at 2015-11-10 12:13:32 +1100
+Processing by HomeController#coord as */*
+  Parameters: {"userLong"=>"151.2726233", "userLat"=>"-33.869812"}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2015-11-10 12:14:07 +1100
+Processing by HomeController#search as */*
+  Parameters: {"term"=>"burger"}
+Completed 200 OK in 934ms (Views: 2.5ms | ActiveRecord: 0.0ms)
